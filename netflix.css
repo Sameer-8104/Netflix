@@ -1,0 +1,96 @@
+body{
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    /* filter: brightness(20%); */
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/bg.jpg');
+}
+.header{
+    margin: auto;
+    height: 70px;
+    width: 1100px;
+
+}
+img{
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.options{
+    height: 30px;
+    width: 205px;
+    float: inline-end;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+.lang{
+    float: left;
+    height: 30px;
+    width: 110px;
+    border-radius: 5px;
+    color: white;
+    border: solid 1px white;
+    font-size: 15px;
+    background-color: transparent;
+
+}
+.login{
+    height: 30px;
+    width: 80px;
+    margin-left: 15px;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+}
+button{
+    background-color: red;
+    border:red;
+}
+.box{
+    margin: auto;
+    margin-top: 220px;
+    height: 300px;
+    width: 1000px;
+
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;    
+}
+h2{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box2{
+    height: 65px;
+    margin: auto;
+    width: 560px;
+}
+.start{
+    float: left;
+    height: 55px;
+    width: 234px;
+    margin-left: 10px;
+    background-color: red;
+    font-size: 30px;
+    border: solid 1px red;
+    border-radius: 5px;
+    color: white;
+}
+.input{
+    height: 50px;
+    width: 310px;
+    float: left;
+    border: solid 1px white ;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 20px;
+    color: white;
+}
